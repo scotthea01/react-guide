@@ -3,7 +3,9 @@ import { Box } from "@chakra-ui/react"
 import ExpenseItem from "./ExpenseItem";
 import ExpensesFilter from "./ExpensesFilter";
 
-
+const Something = () => {
+  
+}
 const Expenses = (props) => {
   const [filteredYear, setfilteredYear] = useState('2020');
 
